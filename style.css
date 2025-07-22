@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(249, 245, 245);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    color:rgb(7, 7, 232);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    position: relative;
+}
+
+h1{
+    padding-bottom: 1rem;
+    font-size:2.5rem;
+}
+
+#player1,#player2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+}
+
+#player1{
+    border-right: solid blue 2px;
+    padding-right: 2rem;
+}
+div{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 4vw;
+}
+
+button{
+    font-size: large;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#buttons{
+    display: flex;
+    gap: 1rem;
+    align-self: self-start;
+    margin-left: 4rem;
+}
+
+#start{
+    background-color: green;
+    width: 40%;
+    cursor: pointer;
+    font-size: larger;
+}
+
+img{
+    height: 22vh;
+    background-color: antiquewhite;
+}
+
+#win{
+    text-align: center;
+}
