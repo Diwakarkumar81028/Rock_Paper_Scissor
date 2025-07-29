@@ -67,7 +67,7 @@ button{
     margin-left: 4rem;
 }
 
-#start{
+#restart{
     background-color: green;
     width: 40%;
     cursor: pointer;
@@ -81,4 +81,5 @@ img{
 
 #win{
     text-align: center;
+    color: rgb(197, 33, 87);
 }
